@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <title>Exercício 09</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+        <p><h2>Formulário de Cadastro</h2></p>
+        <form action="" method="post">
+
+            <table>
+
+                <tr>
+                    <td>
+                        <label for="nome">Nome</label>
+                    </td>
+                    <td>
+                        <label for="sobrenome">Sobrenome</label>
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td>
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required="true"> 
+                    </td>
+                    <td>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" requerid="true">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <label for="dataNasc">Data de Nascimento</label> 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="email" name="email" id="email" placeholder="Email" required="true">
+                    </td>
+                    <td>
+                        <input type="date" name="dataNasc" id="dataNasc" required="true"> 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="endereco">Endereço</label>
+                    </td>
+                    <td>
+                        <label for="estado">Estado</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" name="endereco" id="endereco" placeholder="Endereço" required="true">
+                    </td>
+                    <td>
+                        <select id="estado" name="estado">
+                            <option>Default</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="cidade">Cidade</label>
+                    </td>
+                    <td>
+                        <label for="CEP">CEP</label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <input type="text" id="cidade" name="cidade" required="true" placeholder="Cidade">
+                    </td>
+                    <td>
+                    <input type="number" id="cep" name="cep" required="true" placeholder="CEP" maxlength="8">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Descricao">Descrição</label>
+                    </td>
+                    <td>
+                        <label for="Profissao">Profissão</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <textarea name="decricao" id="descricao" required="true"></textarea>
+                    </td>
+                    <td>
+                        <input type="text" required="true" id="profissao" name="profissao" placeholder="Profissão">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="cpf">CPF</label>
+                    </td>
+                    <td>
+                        <label for="rg">RG</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="file" name="cpf" id="cpf">
+                    </td>
+                    <td>
+                        <input type="file" name="rg" id="rg">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" name="submit" id="submit" value="Enviar" >
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

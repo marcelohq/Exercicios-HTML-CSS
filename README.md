@@ -10,6 +10,11 @@
 
 ## Trabalhando com links
 
-- Exercício 5 -> Utilizando link no HTML
-- Exercício 6 -> Usando imagem como link 
-- Exercício 7 -> Trabalhando com o bottom 
+- Exercício 5 -> Utilizando link no HTML.
+- Exercício 6 -> Usando imagem como link. 
+- Exercício 7 -> Trabalhando com o bottom. 
+
+## Trabalhando com formulários
+
+- Exercício 8 -> Criando formulário.
+- Exercício 9 -> Criando formulário com os principais elementos. 
